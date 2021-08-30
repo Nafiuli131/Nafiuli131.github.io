@@ -6,6 +6,28 @@
 /* .navbar-custom{
     background-color: #254E58;
 } */
+
+
+
+.publication2{
+   
+    padding: 5% 0%;
+}
+a:hover{
+    color: white;
+    text-decoration: none;
+}
+.project{
+    min-width: 120px;
+    background-color: #2978ac;
+    border: #2E86C1;
+    padding: 5px 15px;
+    color: #fff;
+}
+.btn2{
+    cursor: pointer;
+}
+
 .navbar-custom .navbar-brand.logo-image img{width:50%}
 .navbar-custom .navbar-brand.logo-text{font:700 2rem/1.5rem "Open Sans", sans-serif;color:#fff;text-decoration:none}
 .navbar-custom .navbar-nav{margin-top:0.75rem;margin-bottom:0.5rem}
@@ -23,6 +45,6 @@
 .navbar-toggler-awesome.fas.fa-times{display:inline-block;margin-right:0.125rem}.btn-custom{background-color:#2E86C1;border:#2E86C1;padding:5px 15px;color:#fff}.btn-custom:hover{background-color:#1f5b83;border:#1f5b83;color:#fff;box-shadow:5px 5px 10px 0px rgba(0,0,0,0.15)}
 .landing{height:600px;background-color:#88BDBC;color:#fff;padding-top:5%}.landing .info{margin-top:15%;padding-left:5%}.landing .info h2{color:#fff;font-size:3.5em}.landing .info h4{font-size:2em}.landing .landimg{margin:20% 0% 0%}.about{margin-top:5%;margin-bottom:15%}.about .btn-resume{background-color:#2E86C1;border:#2E86C1;padding:2% 5%;color:#fff}.about .btn-resume:hover{background-color:#1f5b83;border:#1f5b83;color:#fff;box-shadow:5px 5px 10px 0px rgba(0,0,0,0.15)}.about .social{display:flex;justify-content:start}.about .social a{font-size:15px;display:inline-block;color:#687683;line-height:1;margin-right:15px;transition:0.3s;padding:10px;border-radius:50px;border:1px solid #dde1e4}
 .about .social a:hover{color:#fff;border-color:#2E86C1;background:#254E58}
-.about .social i{font-size:24px;color:#254E58;border-radius:50%;padding:10px;background:#88BDBC}.about .profile{margin:0 auto}.about .profile img{width:450px}.biograph{background-color:#f2f8fc;margin-bottom:5%;min-height:600px;padding:5% 0% 0%}.biograph p{padding:5% 0%;line-height:2.2;font-size:1em}.details{margin-bottom:10%}.details .nav-item .nav-link{padding:0.375rem 1rem 0.375rem 1rem;border:none;color:#838181;font-weight:700;font-size:1.25rem;line-height:1.75rem;text-align:center;text-decoration:none;transition:all 0.2s ease}.details .nav-item .nav-link:hover,.details .nav-item .nav-link.active{background:transparent;color:#1f5b83;border-bottom:3px solid #1f5b83}.details .tab-content .tab-pane{margin:5% 0%;transition:all 0.5s ease}.details #experience li{margin-bottom:10px}.details #experience .job-info{float:left;width:70%;overflow:hidden}.details #experience .duration{float:right;width:30%;overflow:hidden}.details #experience .list-group-item{border:1px solid #e6e6e6}.details #experience .list-group-item:hover{box-shadow:0 0.5rem 1rem rgba(0,0,0,0.15) !important;transition:all .5s}.details #skills .skill-box{background-color:#2E86C1;border-radius:5px;padding:5px 20px;color:#fff;margin:0px 10px 15px 0px;font-weight:600;box-shadow:0 0.5rem 1rem rgba(0,0,0,0.09)}.details #skills .skill-box:hover{transform:scale(1.1);background-color:#f2f8fc;border:2px solid #2E86C1;color:#333;transition:0.3s}.details #skills .part{margin-bottom:15px}.details #projects .card{margin-bottom:8%;border:1px solid #e6e6e6}.details #projects .card:hover{box-shadow:0 0.5rem 1rem rgba(0,0,0,0.15) !important;transition:all .5s}.details #projects .card-body p{font-size:14px}.details #projects label{color:#2E86C1}.publication{padding:5% 0%;background-color:#f2f8fc}.publication .card{margin-bottom:5%}.publication .card:hover{box-shadow:0 0.5rem 1rem rgba(0,0,0,0.15) !important;transition:all .5s}.publication .btn-pub{min-width:120px;background-color:#2978ac;border:#2E86C1;padding:5px 15px;color:#fff}.publication .btn-pub:hover{background-color:#1f5b83;border:#1f5b83;color:#fff;box-shadow:5px 5px 10px 0px rgba(0,0,0,0.15)}
+.about .social i{font-size:24px;color:#254E58;border-radius:50%;padding:10px;background:#88BDBC}.about .profile{margin:0 auto}.about .profile img{width:450px}.biograph{background-color:#f2f8fc;margin-bottom:5%;min-height:600px;padding:5% 0% 0%}.biograph p{padding:5% 0%;line-height:2.2;font-size:1em}.details{margin-bottom:10%}.details .nav-item .nav-link{padding:0.375rem 1rem 0.375rem 1rem;border:none;color:#838181;font-weight:700;font-size:1.25rem;line-height:1.75rem;text-align:center;text-decoration:none;transition:all 0.2s ease}.details .nav-item .nav-link:hover,.details .nav-item .nav-link.active{background:transparent;color:#1f5b83;border-bottom:3px solid #1f5b83}.details .tab-content .tab-pane{margin:5% 0%;transition:all 0.5s ease}.details #experience li{margin-bottom:10px}.details #experience .job-info{float:left;width:70%;overflow:hidden}.details #experience .duration{float:right;width:30%;overflow:hidden}.details #experience .list-group-item{border:1px solid #e6e6e6}.details #experience .list-group-item:hover{box-shadow:0 0.5rem 1rem rgba(0,0,0,0.15) !important;transition:all .5s}.details #skills .skill-box{background-color:#2E86C1;border-radius:5px;padding:5px 20px;color:#fff;margin:0px 10px 15px 0px;font-weight:600;box-shadow:0 0.5rem 1rem rgba(0,0,0,0.09)}.details #skills .skill-box:hover{transform:scale(1.1);background-color:#f2f8fc;border:2px solid #2E86C1;color:#333;transition:0.3s}.details #skills .part{margin-bottom:15px}.details #projects .card{margin-bottom:1.5%;border:1px solid #e6e6e6}.details #projects .card:hover{box-shadow:0 0.5rem 1rem rgba(0,0,0,0.15) !important;transition:all .5s}.details #projects .card-body p{font-size:14px}.details #projects label{color:#2E86C1}.publication{padding:5% 0%;background-color:#f2f8fc}.publication .card{margin-bottom:5%}.publication .card:hover{box-shadow:0 0.5rem 1rem rgba(0,0,0,0.15) !important;transition:all .5s}.publication .btn-pub{min-width:120px;background-color:#2978ac;border:#2E86C1;padding:5px 15px;color:#fff}.publication .btn-pub:hover{background-color:#1f5b83;border:#1f5b83;color:#fff;box-shadow:5px 5px 10px 0px rgba(0,0,0,0.15)}
 .footer{min-height:150px;background-color:#88BDBC;color:#fff}.footer p a{text-decoration:none;color:#fff}.footer .social{display:flex;justify-content:center;padding:0px 0px 20px}.footer .social a{font-size:12px;display:inline-block;color:#687683;line-height:1;margin-right:15px;transition:0.3s;padding:8px;border-radius:50px;border:1px solid #dde1e4;background-color:#fff}.footer .social a:hover{color:#fff;border-color:#2E86C1;background:#2E86C1}.footer .social i{font-size:18px;color:#246998;border-radius:50%;padding:10px;background:#c9e2f2}@media (max-width: 576px){.mobile-img{display:none}.landing{height:650px;color:#fff}.landing .info{margin-top:50%;padding-left:5%}.landing .info h2{font-size:3.5em;color:#fff}.landing .info h4{font-size:2em}.about{margin-bottom:15%}.about .profile{margin:0 auto;margin-bottom:10%}.about .profile img{width:450px}.details{padding:10% 0%;margin-bottom:10%}.details #skills .part{margin-bottom:15px}.publication{margin-bottom:15%}.footer{min-height:150px}.footer .social{display:flex;justify-content:center;padding:15px 0px 20px}}
 /*# sourceMappingURL=main.min.css.map */
