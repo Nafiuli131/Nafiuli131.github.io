@@ -1,635 +1,124 @@
-
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
-
 <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta name="image" property="og:image" content="https://github.com/Nafiuli131/Nafiuli131.github.io/blob/main/img/dev.svg">
-    <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
-        integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
-
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
-
-    <link rel="stylesheet" href="./css/main.min.css">
-
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-
-    <title>Home</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Nafiul Islam - About</title>
+  <link rel="stylesheet" href="assets/styles.css" />
 </head>
-
 <body>
-    <!-- Navigation -->
-    <nav class="navbar navbar-expand-lg navbar-dark navbar-custom fixed-top">
-        <div class="container">
-    
-            <!-- Image Logo -->
-            <a class="navbar-brand logo-image" href="index.html">
-                Nafiul Islam
-                <!-- <img src="images/logo1.svg" alt="alternative"> -->
-            </a>
-    
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault"
-                aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-awesome fas fa-bars"></span>
-                <span class="navbar-toggler-awesome fas fa-times"></span>
-            </button>
-    
-            <div class="collapse navbar-collapse" id="navbarsExampleDefault">
-                <ul class="navbar-nav ml-auto">
-                    <li class="nav-item">
-                        <a class="nav-link page-scroll text-uppercase" href="#landing">HOME <span class="sr-only">(current)</span></a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link page-scroll text-uppercase" href="#about">ABOUT</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link page-scroll text-uppercase" href="#details">SHOWCASE</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link page-scroll text-uppercase" href="#publication">PUBLICATION</a>
-                    </li>
-            </div>
+    <nav>
+        <div class="nav-container">
+          <div class="logo">Nafiul Islam</div>
+          <ul class="nav-links">
+            <li><a href="index.html">🧑‍💼 About</a></li>
+            <li><a href="portfolio.html">📁 Work</a></li>
+            <li><a href="education.html">📚 Education</a></li>
+            <li><a href="blog.html">✒️ Articles</a></li>
+            <li><button id="themeToggle">🌗</button></li>
+            
+          </ul>
         </div>
-    </nav>
+      </nav>      
 
-
-
-
-    <header class="landing" id="landing">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-7 info">
-                    <h2>Hi,</h2>
-                    <h4>I'm Nafiul Islam</h4>
-                    <br>
-                    <br>
-                    <h3>Experienced Software Engineer with a demonstrated history of working with highly scalable, available, and fault-tolerant systems.</h3>
-<!--                     <h3>Software Engineer -->
-<!--                     <br> Blockchain, Machine Learning, Algorithms
-                    <br>Team Guy </h3> -->
-                </div>
-                <div class="col-md-5 mobile-img">
-                    <img class="landimg" src="./img/dev.svg" width="400px">
-                </div>
-            </div>
+  <main>
+    <section class="intro">
+        <img src="assets/nafiul.jpeg" alt="Nafiul Islam" class="profile-pic" />
+        <div>
+          <h1>Nafiul Islam</h1>
+          <h2>Sr. Software Engineer | Proficient in Java & Backend Architecture</h2>
         </div>
-    </header>
-    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 230">
-        <path class="header" fill-opacity="1"
-            d="M0,64L48,96C96,128,192,192,288,186.7C384,181,480,107,576,106.7C672,107,768,181,864,186.7C960,192,1056,128,1152,122.7C1248,117,1344,171,1392,197.3L1440,224L1440,0L1392,0C1344,0,1248,0,1152,0C1056,0,960,0,864,0C768,0,672,0,576,0C480,0,384,0,288,0C192,0,96,0,48,0L0,0Z">
-        </path>
-    </svg>
+      </section>
 
+    <section class="about-me">
+      <p>
+        I'm a results-driven software engineer skilled in building scalable, high-performance systems. I specialize in backend development, API design, system optimization, and database architecture. Passionate about solving complex problems and continuously learning, I thrive in collaborative environments to deliver impactful, reliable solutions.
+      </p>
+    </section>
 
+    <section class="professional-journey">
+      <h3>My Professional Journey</h3>
 
+      <div class="job">
+        <p>☁️ <strong>Cloudly Infotech Limited – Software Engineer (Jan 2025 – Present)</strong></p>
+        <ul>
+          <li>Developed a Javalin-based IoT solution for industrial refrigeration systems, enabling real-time monitoring and control.</li>
+          <li>Designed alert mechanisms for critical I/O values and managed data storage using SQLite and InfluxDB for structured and time-series data.</li>
+          <li>Mentored junior team members, fostering skill development and collaboration.</li>
+        </ul>
+      </div>      
 
+      <div class="job">
+        <p>🌐 <strong>Adventure Dhaka Limited</strong></p>
+        <p><em>Senior Software Engineer (Oct 2024 – Dec 2024)</em><br>
+           <em>Software Engineer (Aug 2023 – Sep 2024)</em></p>
+        <ul>
+          <li>Integrated third-party APIs into a microservices-based architecture for seamless external service communication.</li>
+          <li>Managed large-scale data retrieval, transformation, and storage using PostgreSQL.</li>
+          <li>Mentored junior developers and supported supervisors in making critical architectural and technical decisions.</li>
+        </ul>
+      </div>      
 
+      <div class="job">
+        <p>✈️ <strong>TechnoNext Limited – Software Engineer (June 2022 – July 2023)</strong></p>
+        <ul>
+          <li>Developed and maintained an Aircraft Management System using Java and Spring Boot to support efficient resource planning and operations.</li>
+          <li>Designed and implemented features for flight count tracking, fuel management, fleet monitoring, and aircraft tool maintenance.</li>
+          <li>Mentored junior developers, providing technical guidance and code reviews.</li>
+        </ul>
+      </div>      
 
-    <div id="about" class="anchor"></div><br>
-    <div class="container-fluid about">
-        <div class="container ">
-        
-            <div class="row justify-content-between">
-                <div class="col-md-5">
-                    <div class="profile">
-                        <img class="img-fluid rounded shadow mt-5 mx-auto" src="./img/imgnayeem.jpg.jpg" loading="lazy">
-                    </div>
-                </div>
-        
-                <div class="col-md-6">
-                    <h2>About Me</h2> <br>
-                    <p class="text-justify">I pursued my B.S. in Computer Science and Engineering from the passion of exploring this field. With this aim, I have the focus to engage
-                    in core software development, and contribute to academic-industrial
-                    research that would
-                    make the lives of common people better. I am more fond of learning and working in the domains of
-                    Blockchain, Algorithms, Web Developing, Machine Learning, Data Mining and Networking
-                    related developments. Also, I have a keen interest in applying software
-                    engineering. I wish to contribute to the country’s economy with my
-                    skills and build applications that can positively affect human lives in
-                    society.</p>
-        
-                    <ul class="list-group">
-                        <li class="list-group-item border-0">
-                            <i class="fas fa-caret-right"></i> &nbsp;
-                            <strong>Current Position and Workplace :</strong>
-                            <br> Software Engineer        
-                            <br>Adventure Dhaka Limited
-                        </li>
-                        <li class="list-group-item border-0">
-                            <i class="fas fa-caret-right"></i> &nbsp;
-                            <strong>Email :</strong><br> nafiuli131@gmail.com
-                        </li>
-                    </ul>
-        <!-- CV Linke given here -->
-                    <!-- <div class="resume mt-4">
-                        <a class="btn btn-resume" href="CV.pdf" download="Taoseef_Ishtiak_CV.pdf">
-                            <i class="fas fa-file-download"></i> &nbsp;
-                            CV
-                        </a>
-                    </div> -->
-                    <br>
-        
-                    <h5 class="mt-4">Profile Links</h5> <br>
-                    <div class="social">
-                        <a class="links shadow border-0" href="https://github.com/Nafiuli131">
-                            <i class="fab fa-github"></i>
-                        </a>
-        
-                        <a class="links shadow border-0" href="https://www.linkedin.com/in/nafiul-islam-849265129/">
-                            <i class="fab fa-linkedin"></i>
-                        </a>
+      <div class="job">
+        <p>💼 <strong>Synesis IT Ltd – Programmer (June 2020 – May 2022)</strong></p>
+        <ul>
+          <li>Developed a scalable video conferencing application using React, Spring Boot, and MySQL in a microservices architecture.</li>
+          <li>Led full-stack development efforts, handling both frontend and backend components.</li>
+          <li>Collaborated with cross-functional teams to optimize system performance and enhance user experience.</li>
+        </ul>
+      </div>
+      
 
-                      
-        
-                    </div>
-        
-        
-                </div>
-        
-        
-        
-            </div>
-        </div>
-    </div>
-
-    
-    <div class="container-fluid details">
-        <div id="details" class="anchor"></div><br>
-
-        <div class="container">
-            <h2 class="text-center">Showcase</h2> <br>
-            <ul class="nav nav-tabs nav-justified border-0" id="myTab" role="tablist">
-
-                <li class="nav-item" role="presentation">
-                    <a class="nav-link  active" id="home-tab" data-toggle="tab" href="#experience" role="tab" aria-controls="home"
-                        aria-selected="true">Experience</a>
-                </li>
-
-                <li class="nav-item" role="presentation">
-                    <a class="nav-link" id="profile-tab" data-toggle="tab" href="#skills" role="tab" aria-controls="profile"
-                        aria-selected="false">Skills</a>
-                </li>
-
-                <li class="nav-item" role="presentation">
-                    <a class="nav-link" id="contact-tab" data-toggle="tab" href="#projects" role="tab" aria-controls="contact"
-                        aria-selected="false">Projects</a>
-                </li>
+      <div class="job">
+        <p>🎓 <strong>North South University – Teaching Assistant (Jan 2018 – May 2020)</strong></p>
+        <ul>
+          <li>Mentored 350+ students across core computer science courses, including:
+            <ul>
+              <li>CSE 173 – Discrete Mathematics</li>
+              <li>CSE 215 – Object-Oriented Programming</li>
+              <li>CSE 311 – Database Systems</li>
+              <li>CSE 327 – Software Engineering</li>
             </ul>
+          </li>
+          <li>Created assignment questions to evaluate students' understanding.</li>
+          <li>Assisted faculty with grading, exam supervision, and academic support.</li>
+          <li>Helped manage coursework and provided one-on-one student guidance.</li>
+        </ul>
+      </div>
+      
+      
+      
+    </section>
 
-            <div class="tab-content" id="myTabContent">
-
-                <div class="tab-pane fade show active" id="experience" role="tabpanel" aria-labelledby="experience">
-                    <div class="row justify-content-between">
-                        <div class="col-md-6 mobile-img">
-                            <img src="./img/cv.svg" loading="lazy" width="60%">
-                        </div>
-                        <div class="col-md-6">
-                            <ul class="list-group">
-                                <li class="list-group-item shadow-sm rounded">
-                                    <div class="ma-0">
-                                        <div class="job-info">
-                                            <span class="h5">Adventure Dhaka Limited</span> <br>
-                                            <span>Software Engineer</span>
-                                        </div>
-                                        <div class="duration">
-                                            <small>
-                                                <strong>From</strong> October, 2023
-                                                <br>
-                                                <strong>To</strong> Present
-                                            </small>
-                                        </div>
-                                    </div>
-                                </li>
-                                <li class="list-group-item shadow-sm rounded">
-                                    <div class="ma-0">
-                                        <div class="job-info">
-                                            <span class="h5">US Bangla Group</span> <br>
-                                            <span>Software Engineer</span>
-                                        </div>
-                                        <div class="duration">
-                                            <small>
-                                                <strong>From</strong> October, 2022
-                                                <br>
-                                                <strong>October, 2023</strong>
-                                            </small>
-                                        </div>
-                                    </div>
-                                </li>
-                                <li class="list-group-item shadow-sm rounded">
-                                    <div class="ma-0">
-                                        <div class="job-info">
-                                            <span class="h5">Synesis IT Ltd.</span> <br>
-                                            <span>Programmer</span>
-                                        </div>
-                                        <div class="duration">
-                                            <small>
-                                                <strong>From</strong> October, 2020
-                                                <br>
-                                                <strong>October, 2022</strong>
-                                            </small>
-                                        </div>
-                                    </div>
-                                </li>
-                                
-                                <li class="list-group-item shadow-sm rounded">
-                                    <div class="ma-0">
-                                        <div class="job-info">
-                                            <span class="h5">North South University</span> <br>
-                                            <span>Graduate Assistant(GA)</span>
-                                        </div>
-                                        <div class="duration">
-                                            <small>
-                                                <strong>From</strong> Oct, 2020
-                                                <br>
-                                                <strong>April, 2022</strong>
-                                            </small>
-                                        </div>
-                                    </div>
-                                </li>
-                                
-                                <li class="list-group-item shadow-sm rounded">
-                                    <div class="ma-0">
-                                        <div class="job-info">
-                                            <span class="h5">North South University</span> <br>
-                                            <span>Teaching Assistant(TA)</span>
-                                        </div>
-                                        <div class="duration">
-                                            <small>
-                                                <strong>From</strong> Jan, 2019
-                                                <br>
-                                                <strong>To</strong> Sept, 2020
-                                            </small>
-                                        </div>
-                                    </div>
-                                </li>
-
-                              
-                                
-                              
-                                
-                            </ul>
-
-                        </div>
-                    </div>
-                </div>
-
-
-                <div class="tab-pane fade" id="skills" role="tabpanel" aria-labelledby="profile-tab">
-                    <div class="row justify-content-around">
-                        
-                        <div class="col-md-6">
-                            <h4>Working with !!</h4> <br>
-
-                            <div class="part">
-                                <span class="btn skill-box">Java</span>
-                                <span class="btn skill-box">JavaScript</span>
-                                <span class="btn skill-box">Object-oriented Programming</span>
-                                <span class="btn skill-box">Web Development</span>
-<!--                                 <span class="btn skill-box">Android Development</span> -->
-                            </div>
-
-                            <h4>Frameworks</h4> <br>
-                            <div class="part">
-                                <span class="btn skill-box">Spring Boot</span>
-                                <span class="btn skill-box">React JS</span>
-                                <span class="btn skill-box">Angular JS</span>
-
-                            </div>
-
-
-                            <h4>Research Interest</h4> <br>
-                            <div class="part">
-                                <span class="btn skill-box">Blockchain</span>
-                                <span class="btn skill-box">Machine Learning</span>
-                                <span class="btn skill-box">Augmented Reality</span>
-                            
-                            </div>
-                    
-                        </div>
-
-                        <div class="col-md-6 mobile-img">
-                            <img src="./img/skill.png" class="mt-5" loading="lazy" width="80%">
-                        </div>
-
-
-                    </div>
-                </div>
-
-
-                <div class=" tab-pane fade publication2" id="projects" role="tabpanel" aria-labelledby="contact-tab">
-                    <div class="col-md-12">
-                        <div class="card border-0 shadow-sm">
-    
-                            <div class="card-body">
-                                
-                                    <h6 class="text-capitalize">Blockchain-Based-Voting-App</h6> 
-                                    <p class="text-justify substr">
-                                        This is the thesis project of me and two groupmates.
-                                        This electronic vote cast system that removes vote tempering and ensuring security.......
-                                    </p>
-        
-                                <div class="">
-                                    <!-- <a class="btn btn-pub" href="" download="PID6376309.pdf">
-                                        Download
-                                    </a> -->
-                                    <a class="btn2 btn-pub project" href="https://github.com/Nafiuli131/Blockchain-Based-Voting-App">
-                                        Repository
-                                      
-                                    </a>
-                                </div>
-                            </div>
-                            
-
-
-
-                        </div>
-                        
-                        <div class="card border-0 shadow-sm">
-    
-                            <div class="card-body">
-                                
-                                <h6 class="text-capitalize">Foodie-Website</h6> 
-                                <p class="text-justify substr">
-                                    This is the web-development course project developed by myself
-                                    This is a restaurent based food website using the html,css,bootstrap,php and mysql....
-                                </p>
-    
-                            <div class="">
-                                <!-- <a class="btn btn-pub" href="" download="PID6376309.pdf">
-                                    Download
-                                </a> -->
-                                <a class="btn2 btn-pub project" href="https://github.com/Nafiuli131/Foodie-Website">
-                                    Repository
-                                  
-                                </a>
-                                </div>
-                            </div>
-                            
-
-
-
-                        </div>
-                    
-                        <div class="card border-0 shadow-sm">
-    
-                            <div class="card-body">
-                                
-                                <h6 class="text-capitalize">CSE327Team95</h6> 
-                                <p class="text-justify substr">
-                                    This repository contains the dedicated work of my CSE327: Software Engineering term project. It is a FB App Clone Web Application. I along with 3 of my group mates are developing the project....
-                                </p>
-    
-                            <div class="">
-                                <!-- <a class="btn btn-pub" href="" download="PID6376309.pdf">
-                                    Download
-                                </a> -->
-                                <a class="btn2 btn-pub project" href="https://github.com/TaoseefIshtiak/CSE327Team95">
-                                    Repository
-                                  
-                                </a>
-                                </div>
-                            </div>
-                            
-
-
-
-                        </div>
-
-
-                    </div>
-
-                    
-                    </div>
-                    <!-- <div class="row" id="projectgrid"> -->
-                       
-                    </div>
-
-                </div>
-            </div>
+    <section class="contact">
+      <h3>📬 Reach Me Here</h3>
+      <div class="contact-grid">
+        <div class="contact-left">
+          <p><strong>📞 Phone:</strong> +88 01941627021</p>
+          <p><strong>✉️ Email:</strong> nafiuli131@gmail.com</p>
         </div>
-    </div>
-
-
-
-
-    
-    <div class="container-fluid publication">
-        <div id="publication" class="anchor"></div><br>
-        <div class="container">
-            <h2 class="text-center">Publication</h2> <br>
-
-            <div class="row justify-content-between">
-    
-
-    <div class="col-md-12">
-                    <div class="card border-0 shadow-sm">
-
-                        <div class="card-body">
-                            <h5>
-                                Nafiul Islam, Nayeem Al-Tamzid Bhuiyan, Diba Chowdhury, Md Mahmudul Hasan, Rahat Pervez, Md Imdadul Hoque (2021). Decentralized way of keeping drug records using Blockchain Technology (Hyperledger Fabric) Int. J. Sci. Res. in Computer Science and Engineering, Vol-9, Issue-2 </i>
-                            </h5>
-    
-                            <div class="">
-                                <!-- <a class="btn btn-pub" href="" download="PID6376309.pdf">
-                                    Download
-                                </a> -->
-                                <a class="btn btn-pub" href="https://www.researchgate.net/profile/Nayeem_Arnab/publication/353795518_Decentralized_way_of_keeping_drug_records_using_Blockchain_Technology_Hyperledger_Fabric/links/611263c00c2bfa282a335264/Decentralized-way-of-keeping-drug-records-using-Blockchain-Technology-Hyperledger-Fabric.pdf">
-                                    View
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="card border-0 shadow-sm">
-                        <div class="card-body">
-                            <h5>
-                                Diba Chowdhury, Laila Tamanna Anni, Md Mahmudul Hasan, Nayeem Al-Tamzid Bhuiyan, Nafiul Islam, Rahat Pervez (2021). Cryptographic ledger of blockchain technology in healthcare <i> GSC Advanced Research and Reviews, Vol-7, Issue-3 </i>
-                            </h5>
-    
-                            <div class="">
-                                <!-- <a class="btn btn-pub" href="" download="1-s2.0-S0048969720337761-main.pdf">
-                                    Download
-                                </a> -->
-                                <a class="btn btn-pub" href="https://gsconlinepress.com/journals/gscarr/sites/default/files/GSCARR-2021-0117.pdf">
-                                    View
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-12">
-                    <div class="card border-0 shadow-sm">
-                        <div class="card-body">
-                            <h5>
-                                Rahat Pervez, Diba Chowdhury, Md Sahadat Hossain Sagor, Md Imdadul Hoque, Nafiul Islam, "Augmented reality marker-based technology for augmenting newspaper advertisement", 
-                                <i><b> Recent Research in Science and Technology 2021, 13: 13-18
-                               </b>
-                            </h5>
-    
-                            <div class="">
-                                <!-- <a class="btn btn-pub" href="08936182.pdf" download="08936182.pdf">
-                                    Download
-                                </a> -->
-                                <a class="btn btn-pub" href="https://www.researchgate.net/profile/Diba-Chowdhury/publication/351137368_Augmented_reality_marker-based_technology_for_augmenting_newspaper_advertisement/links/608a3f91299bf1ad8d65554d/Augmented-reality-marker-based-technology-for-augmenting-newspaper-advertisement.pdf">
-                                    View
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-    
-            <!-- <div class="row justify-content-between">
-    
-                <div class="col-md-12">
-                    <div class="card border-0 shadow-sm">
-                        <div class="card-body">
-                            <h5>
-                                T. Ishtiak, S. Ahmed, M.H. Anila, S. Islam, R. Shelim, T. Farah, “Road state classification of Bangladesh with convolutional neural network approach”, <i><b>(2019) WMSCI 2019 - 23rd
-                                World Multi-Conference on Systemics, Cybernetics and Informatics, Proceedings, 4, pp. 129-134</b>
-                            </h5>
-    
-                            <div class="">
-                                <a class="btn btn-pub" href="PaperIDSA676WHCNNBasedRoadClassificationPaper.pdf" download="PaperIDSA676WHCNNBasedRoadClassificationPaper" download>
-                                    Download
-                                </a>
-                                <a class="btn btn-pub" href="https://www.scopus.com/results/results.uri?numberOfFields=0&src=s&clickedLink=&edit=&editSaveSearch=&origin=searchbasic&authorTab=&affiliationTab=&advancedTab=&scint=1&menu=search&tablin=&searchterm1=Road%20State%20Classification%20of%20Bangladesh%20with%20Convolutional%20Neural%20Network%20Approach&field1=TITLE_ABS_KEY&dateType=Publication_Date_Type&yearFrom=Before%201960&yearTo=Present&loadDate=7&documenttype=All&accessTypes=All&resetFormLink=&st1=Road%20State%20Classification%20of%20Bangladesh%20with%20Convolutional%20Neural%20Network%20Approach&st2=&sot=b&sdt=b&sl=97&s=TITLE-ABS-KEY(Road%20State%20Classification%20of%20Bangladesh%20with%20Convolutional%20Neural%20Network%20Approach)&sid=9cd0053288aaa8eb7477505927a18aa3&searchId=9cd0053288aaa8eb7477505927a18aa3&txGid=cb7fa51436c0bf5c405359793c9b80a0&sort=plf-f&originationType=b&rr=&fbclid=IwAR0dsS-nQ80FEkTwTlPdzfP5zu6AQMvDVLR8zKM2RQiUy1lEqVqYyOAmsRI">
-                                    View
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-    
-                <div class="col-md-12">
-                    <div class="card border-0 shadow-sm">
-                        <div class="card-body">
-                            <h5>
-                                S. Ahmed, T. Ishtiak, A. U. R. C Suhan, M.H. Anila, T. Farah, “Road
-                        state classification of Bangladesh with convolutional neural network approach”, <i><b>(2019) Journal of Systemics, Cybernetics and Informatics: JSCI, Volume 17 - Number 4</b> (extended version for journal publication)
-                            </h5>    
-                            <div class="">
-                                <a class="btn btn-pub" href="SA676WH19.pdf" download>
-                                    Download
-                                </a>
-                                <a class="btn btn-pub" href="http://www.iiisci.org/Journal/CV$/sci/pdfs/SA676WH19.pdf" target="">
-                                    View
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-    
-                <div class="col-md-12">
-                    <div class="card border-0 shadow-sm">
-                        <div class="card-body">
-                            <h5>
-                                T. Ishtiak, S. Ahmed, M. H. Anila and T. Farah, "A Convolutional Neural Network
-                        Approach for Road Anomalies Detection in Bangladesh with Image Thresholding“, <i><b>2019 Third World Conference on Smart Trends in Systems Security and Sustainability (WorldS4), London, United Kingdom,
-                        2019, pp. 376-382. doi: 10.1109/WorldS4.2019.8903936</b>
-                            </h5>
-                            <div class="">
-                                <a class="btn btn-pub" href="08903936.pdf" download>
-                                    Download
-                                </a>
-                                <a class="btn btn-pub" href="https://ieeexplore.ieee.org/document/8903936" target="">
-                                    View
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-12">
-                    <div class="card border-0 shadow-sm">
-                        <div class="card-body">
-                            <h5>
-                                T. Ishtiak, R. M. Orpon, N. Mashnoor, M. Ahmed and M. A. Nazim, "An advanced
-                        application to decrease household power consumption and save energy detecting the weather condition,"
-                        <i><b>2017 8th IEEE Annual Information Technology, Electronics and Mobile Communication Conference (IEMCON), Vancouver, BC, 2017, pp. 622-627. doi: 10.1109/IEMCON.2017.8117168</b>
-                            </h5>
-                            <div class="">
-                                <a class="btn btn-pub" href="08117168.pdf" download>
-                                    Download
-                                </a>
-                                <a class="btn btn-pub" href="https://ieeexplore.ieee.org/document/8117168" target="">
-                                    View
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div> -->
+        <div class="contact-right">
+          <p><strong>🔗 LinkedIn:</strong> <a href="https://linkedin.com/in/nafiul-islam" target="_blank">linkedin.com/in/nafiul-islam</a></p>
+          <p><strong>💻 GitHub:</strong> <a href="https://github.com/Nafiuli131" target="_blank">github.com/Nafiuli131</a></p>
         </div>
-    </div>
-
-    <!-- <div class="card">
-        <div class="card-body">
-            <p class="card-text">Teaching Materials</b>
-            </p>
-            <a href="CSE115Lab.html"
-            class="card-link" style="font-size: 25px; text-decoration: none">CSE115L</a>
-        </div>
-        <div class="card-body">
-            <a href="CSE215Lab.html"
-            class="card-link" style="font-size: 25px; text-decoration: none">CSE215L</a>
-        </div>
-        <div class="card-body">
-            <a href="CSE332Lab.html"
-            class="card-link" style="font-size: 25px; text-decoration: none">CSE332L</a>
-        </div>
-    </div> -->
+      </div>
+    </section>
     
-    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 310">
-        <path class="footer" fill-opacity="1"
-            d="M0,192L80,208C160,224,320,256,480,250.7C640,245,800,203,960,192C1120,181,1280,203,1360,213.3L1440,224L1440,320L1360,320C1280,320,1120,320,960,320C800,320,640,320,480,320C320,320,160,320,80,320L0,320Z">
-        </path>
-    </svg>
-    <footer class="footer">
-        
+  </main>
 
-        <!-- <div class="social ">
-            <a class="links shadow border-0" href="#">
-                <i class="fab fa-github"></i>
-            </a>
-        
-            <a class="links shadow border-0" href="#">
-                <i class="fab fa-linkedin"></i>
-            </a>
-        
-        </div> -->
+  <footer>
+    <p>&copy; 2025 Nafiul Islam</p>
+  </footer>
 
-        <p class="text-center my-0 pb-4">
-            <strong>© Copyright 2020,<span>Nafiul Islam</span> </strong>
-        </p>
-    </footer>
-
-
-    
-    <script src="./js/main.js"></script>
-
-    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
-
-    <!-- Optional JavaScript -->
-    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
-        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
-        crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
-        integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
-        crossorigin="anonymous"></script>
-
+  <script src="assets/script.js"></script>
 </body>
-<!-- Required meta tags -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-170846467-1"></script>
-    <script>
-      window.dataLayer = window.dataLayer || [];
-      function gtag(){dataLayer.push(arguments);}
-      gtag('js', new Date());
-
-      gtag('config', 'UA-170846467-1');
-    </script>
 </html>

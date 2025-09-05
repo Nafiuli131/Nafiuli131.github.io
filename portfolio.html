@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Nafiul Islam - Portfolio</title>
+  <link rel="stylesheet" href="assets/styles.css" />
+</head>
+<body>
+    <nav>
+        <div class="nav-container">
+          <div class="logo">Nafiul Islam</div>
+          <ul class="nav-links">
+            <li><a href="index.html">🙋 About</a></li>
+            <li><a href="portfolio.html">💼 Work</a></li>
+            <li><a href="education.html">🎓 Education</a></li>
+            <li><a href="blog.html">✍️ Articles</a></li>
+            <li><button id="themeToggle">🌓</button></li>
+          </ul>
+        </div>
+      </nav>      
+
+  <main>
+    <section class="intro">
+        <img  src="assets/nafiul.jpeg" alt="Nafiul Islam" class="profile-pic" />
+        <div>
+          <h1>Nafiul Islam</h1>
+          <h2>Sr. Software Engineer | Proficient in Java & Backend Architecture</h2>
+        </div>
+      </section>
+
+      
+      <section class="skills">
+        <h3>💡 What I Know</h3>
+        <div class="skills-tags">
+      
+          <!-- Languages -->
+          <span class="lang">Java</span>
+          <span class="lang">JavaScript</span>
+          <span class="lang">C</span>
+      
+          <!-- Databases -->
+          <span class="db">MySQL</span>
+          <span class="db">MS SQL</span>
+          <span class="db">PostgreSQL</span>
+          <span class="db">SQLite</span>
+          <span class="db">InfluxDB</span>
+          <span class="db">Redis Cache</span>
+      
+          <!-- Backend Frameworks & Tools -->
+          <span class="backend">Spring Boot</span>
+          <span class="backend">Spring Security</span>
+          <span class="backend">Javalin</span>
+          <span class="backend">Hibernate</span>
+          <span class="backend">Spring Data JPA</span>
+          <span class="backend">Microservices</span>
+          <span class="backend">WebSocket</span>
+          <span class="backend">Resilience4j</span>
+          <span class="backend">REST API</span>
+      
+          <!-- Security & Auth -->
+          <span class="security">JWT</span>
+          <span class="security">OAuth 2.0</span>
+          <span class="security">AWS Cognito</span>
+      
+          <!-- Frontend -->
+          <span class="frontend">ReactJS</span>
+      
+          <!-- DevOps & CI/CD -->
+          <span class="devops">Docker</span>
+          <span class="devops">Apache Kafka</span>
+          <span class="devops">Maven</span>
+          <span class="devops">Gradle</span>
+          <span class="devops">Amazon S3</span>
+      
+          <!-- Testing -->
+          <span class="testing">JUnit</span>
+          <span class="testing">Mockito</span>
+      
+          <!-- VCS & Collaboration -->
+          <span class="vcs">GitLab</span>
+          <span class="vcs">GitHub</span>
+          <span class="vcs">Bitbucket</span>
+          <span class="vcs">Jira</span>
+          <span class="vcs">ClickUp</span>
+      
+        </div>
+      </section>
+      
+      
+      
+
+    <section class="projects">
+      <h3>Projects</h3>
+
+      <section class="professional-projects">
+        <h3>🚀 Professional Projects</h3>
+      
+        <div class="project backend">
+          <p>🧊 <strong>IoT-Based Industrial Refrigeration System (Cloudly Infotech)</strong></p>
+          <p><strong>Project Overview:</strong>  
+            Developed an IoT control system for industrial refrigeration, enabling real-time monitoring and control. The system communicates with devices via Modbus, Ethernet/IP, and IO-Link protocols to collect sensor data and regulate system variables through PID control. Data, event logs, and sensor readings are stored in SQLite and InfluxDB, with historical reports generated from InfluxDB data.
+          </p>
+          <p><strong>Responsibilities:</strong>  
+            Designed and developed Spring Boot APIs to expose data from a Javalin backend to frontend. Implemented endpoints for device I/O data retrieval through Modbus, Ethernet/IP, and IO-Link. Monitored InfluxDB for historical data reporting, ensuring efficient backend-database-frontend integration.
+          </p>
+          <p><strong>Technology Used:</strong> Javalin, Spring Boot, SQLite, InfluxDB, Modbus, Ethernet/IP</p>
+          <p><strong>Role:</strong> Backend Developer</p>
+        </div>
+      
+        <div class="project aviation">
+          <p>✈️ <strong>Aircraft Management System (TechnoNext Limited)</strong></p>
+          <p><strong>Project Overview:</strong>  
+            Designed to streamline airplane resource management with modules for authentication, store procurement, planning, logistics, audit, and report generation. The platform manages fleet operations and inventory tracking, improving operational efficiency and decision-making.
+          </p>
+          <p><strong>Responsibilities:</strong>  
+            Developed core backend modules covering authentication/authorization, procurement, planning, logistics, audit, and reporting.
+          </p>
+          <p><strong>Technology Used:</strong> Java, Spring Boot, MS SQL</p>
+          <p><strong>Role:</strong> Backend Developer</p>
+        </div>
+      
+        <div class="project travel">
+          <p>🌍 <strong>New Adventure Project (Adventure Dhaka Limited)</strong></p>
+          <p><strong>Project Overview:</strong>  
+            Built a comprehensive travel booking platform with microservices handling product details, payments, notifications, user management, bookings, and cart management. Integrated with APIs from Agoda, Expedia, and Rakuten, with plans for flight booking integration.
+          </p>
+          <p><strong>Responsibilities:</strong>  
+            Developed authentication, authorization, and third-party vendor API integrations.
+          </p>
+          <p><strong>Technology Used:</strong> Java, Spring Boot, MySQL, PostgreSQL, Microservices, Kafka</p>
+          <p><strong>Role:</strong> Backend Developer</p>
+        </div>
+      
+        <div class="project localization">
+          <p>🌐 <strong>Localization Module (Adventure Dhaka Limited)</strong></p>
+          <p><strong>Project Overview:</strong>  
+            Developed a module for dynamic content changes based on language settings, enabling real-time text, currency, and user-specific information adaptation for seamless localization.
+          </p>
+          <p><strong>Responsibilities:</strong>  
+            Implemented multilingual text support, currency conversion, and Redis cache optimizations for performance.
+          </p>
+          <p><strong>Technology Used:</strong> Java, Spring Boot, PostgreSQL, Redis Cache</p>
+          <p><strong>Role:</strong> Backend Developer</p>
+        </div>
+      
+        <div class="project video">
+          <p>🎥 <strong>Convay Project (Video Conferencing Application, Synesis IT LTD)</strong></p>
+          <p><strong>Project Overview:</strong>  
+            Developed a video conferencing application delivering seamless real-time communication. The full-stack project uses React for frontend and Spring Boot with MySQL in a microservices architecture for backend scalability and performance.
+          </p>
+          <p><strong>Responsibilities:</strong>  
+            Led full-stack development, focusing on modularity, scalability, and performance optimizations.
+          </p>
+          <p><strong>Technology Used:</strong> Java, Spring Boot, React, MySQL, Microservices Architecture</p>
+          <p><strong>Role:</strong> Full Stack Developer</p>
+        </div>
+      
+    </section>
+
+
+    <section class="contact">
+      <h3>📬 Reach Me Here</h3>
+      <div class="contact-grid">
+        <div class="contact-left">
+          <p><strong>📞 Phone:</strong> +88 01941627021</p>
+          <p><strong>✉️ Email:</strong> nafiuli131@gmail.com</p>
+        </div>
+        <div class="contact-right">
+          <p><strong>🔗 LinkedIn:</strong> <a href="https://linkedin.com/in/nafiul-islam" target="_blank">linkedin.com/in/nafiul-islam</a></p>
+          <p><strong>💻 GitHub:</strong> <a href="https://github.com/Nafiuli131" target="_blank">github.com/Nafiuli131</a></p>
+        </div>
+      </div>
+    </section>
+
+
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Nafiul Islam</p>
+  </footer>
+
+  <script src="assets/script.js"></script>
+</body>
+</html>
